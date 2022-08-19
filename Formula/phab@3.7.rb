@@ -1,10 +1,9 @@
 class Phabalicious < Formula
   desc "Supports your deployments and every-day devops-tasks "
   homepage "http://docs.phab.io"
-  url "https://github.com/factorial-io/phabalicious/releases/download/3.8.0-beta.16/phabalicious.phar"
-  sha256 "49fe74d22f1c1547708aeb1d722b288e4797afeb7f1baa144e345210475416c2"
+  url "https://github.com/factorial-io/phabalicious/releases/download/3.7.18/phabalicious.phar"
+  sha256 "441aba02d75eb0ec2a72dde15682fab8bc5dd88ac3a6de9d0a3cf3b484083d80"
   license "MIT"
-  depends_on "box"
   def install
     bin.install 'phabalicious.phar' => 'phab'
   end
