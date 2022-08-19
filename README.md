@@ -17,8 +17,7 @@ In order to use this tap, you need to install Homebrew.
 Then, to run a default installation, run:
 
 ```
-brew tap factorial-io/homebrew-phabalicious
-brew install phab@3.7
+brew install factorial-io/homebrew-phabalicious/phab@3.7
 ```
 
 
